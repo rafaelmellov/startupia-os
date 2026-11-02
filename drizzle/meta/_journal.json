@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792884323768,
+      "tag": "0000_graceful_skaar",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792894734098,
+      "tag": "0001_supreme_anita_blake",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792958509370,
+      "tag": "0002_sour_hannibal_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1793159064200,
+      "tag": "0003_nice_blue_blade",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head><base href="/experience/onboarding/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#060b12">
+  <meta name="robots" content="noindex, nofollow"><meta name="description" content="Tu próximo comienzo. Personaliza tu experiencia en Startupia OS, paso a paso.">
+  <title>Tu próximo comienzo — Startupia OS</title>
+  <link rel="icon" type="image/webp" href="assets/startupia-isotipo.webp">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="experience.css">
+<link rel="stylesheet" href="/motion-v5.css"><link rel="stylesheet" href="/ecosystem.css"></head>
+<body>
+  <a class="skip-link" href="/onboarding#main">Saltar al contenido</a>
+  <div class="ambient" aria-hidden="true"><div class="aurora one"></div><div class="aurora two"></div><div class="grain"></div><div id="stars"></div></div>
+  <canvas id="celebration" aria-hidden="true"></canvas>
+  <header class="topbar">
+    <div class="brand"><span class="brand-wordmark"><img src="assets/startupia-logo.webp" alt="Startupia" width="172" height="34"><img class="brand-ink" src="assets/startupia-logo.webp" alt="" aria-hidden="true" width="172" height="34"></span><span class="os-tag">OS</span></div>
+    <div class="header-center"><span class="live-dot"></span> UN GRAN COMIENZO, A TU MEDIDA</div>
+    <button class="icon-button help-button" id="helpOpen"><span class="question-icon">?</span><span>¿Te ayudamos?</span></button>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Progreso del onboarding">
+      <div class="sidebar-top"><p class="eyebrow">TU PUNTO DE PARTIDA</p><h2>Un poco de contexto.<br>Mucho más enfoque.</h2><p class="side-description">Hagamos que Startupia se adapte a lo que necesitas hoy.</p></div>
+      <nav id="stepNav" class="step-nav" aria-label="Pasos de configuración"></nav>
+      <div class="sidebar-bottom"><div class="draft-status"><span class="live-dot"></span><span id="saveStatus" role="status">Tu progreso, a tu ritmo</span></div><div class="journey-meter" aria-hidden="true"><div id="journeyProgress"></div></div><div class="sidebar-line"></div><div class="mini-brand"><img src="assets/startupia-isotipo.webp" alt="" width="23" height="25"><span>Piensa en grande.<br><strong>Empieza inteligente.</strong></span></div></div>
+    </aside>
+    <main id="main" tabindex="-1">
+      <div class="main-topline"><span id="stepKicker">01 / BIENVENIDO A STARTUPIA OS</span><span class="time-badge"><span class="clock-icon">◷</span> Unos 3 minutos</span></div>
+      <div class="mobile-progress"><div id="mobileFill"></div></div>
+      <span id="chapterNumber" class="chapter-number" aria-hidden="true">01</span><div id="view" class="view"></div>
+      <div class="step-footer"><button class="text-button" id="back"><span>←</span> Volver</button><span id="footerHint">Tu cuenta ya tiene su lugar. Ahora, dale tu dirección.</span><button class="primary" id="next"><span id="nextLabel">Continuar</span><span class="arrow">↗</span></button></div>
+    </main>
+  </div>
+  <footer class="bottom-bar"><span>© 2026 Startupia <span class="footer-separator">/</span> Tu ambición tiene un lugar.</span><div><button id="motionToggle" aria-pressed="false"><span>◌</span> <span id="motionLabel">Reducir movimiento</span></button><span class="footer-separator">/</span><button id="privacyOpen">Tus datos</button></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="infoDialog"><div class="dialog-head"><span class="eyebrow" id="dialogKicker">STARTUPIA OS</span><button class="icon-button" id="dialogClose" aria-label="Cerrar ventana">✕</button></div><div id="dialogContent"></div></dialog>
+  <script src="app.js"></script>
+<script src="/motion-v5.js" defer></script></body>
+</html>

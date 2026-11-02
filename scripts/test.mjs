@@ -1,0 +1,1 @@
+import {readdirSync} from 'node:fs';import {spawnSync} from 'node:child_process';let passed=0;for(const f of readdirSync('tests').filter(f=>f.endsWith('.test.mjs'))){const r=spawnSync(process.execPath,['tests/'+f],{stdio:'inherit',timeout:60000});if(r.status!==0)process.exit(1);passed++}console.log(passed+' suites passed');

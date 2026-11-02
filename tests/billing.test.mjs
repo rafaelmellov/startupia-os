@@ -1,0 +1,45 @@
+import assert from 'node:assert/strict';
+import {createHmac} from 'node:crypto';
+import {loadTS} from './ts-loader.mjs';
+const {isBillingConfigured,verifyEvent,subscriptionState,paidInvoiceUntil,reconcileEvent}=await loadTS('lib/billing/core.ts');
+const now=1800000000000,secret='whsec_fixture',timestamp=now/1000;
+const raw=JSON.stringify({id:'evt_test',type:'invoice.paid',livemode:false,data:{object:{customer:'cus_test'}}});
+const signature=createHmac('sha256',secret).update(`${timestamp}.${raw}`).digest('hex');
+assert.equal(verifyEvent(raw,`t=${timestamp},v1=${signature}`,secret,now).id,'evt_test');
+assert.equal(verifyEvent(raw,`t=${timestamp},v1=${'0'.repeat(64)},v1=${signature}`,secret,now).id,'evt_test');
+assert.throws(()=>verifyEvent(raw+' ',`t=${timestamp},v1=${signature}`,secret,now));
+assert.throws(()=>verifyEvent(raw,`t=${timestamp},v1=${signature}`,secret,now+301000));
+assert.throws(()=>verifyEvent(raw,`t=${timestamp},t=${timestamp},v1=${signature}`,secret,now));
+assert.throws(()=>verifyEvent(raw,`t=${timestamp},v1=aa`,secret,now));
+const live=raw.replace('false','true'),liveSignature=createHmac('sha256',secret).update(`${timestamp}.${live}`).digest('hex');
+assert.throws(()=>verifyEvent(live,`t=${timestamp},v1=${liveSignature}`,secret,now));
+const prices={build:'price_build',growth:'price_growth'};
+const sub={id:'sub_test',created:123,status:'active',items:{data:[{id:'si_test',quantity:1,price:{id:prices.growth},current_period_end:timestamp+86400}]}};
+const line={amount:3700,quantity:1,pricing:{price_details:{price:prices.growth}},parent:{subscription_item_details:{subscription:'sub_test',subscription_item:'si_test'}},period:{start:timestamp-100,end:timestamp+86400}};
+const invoice={id:'in_test',livemode:false,status:'paid',amount_paid:3700,currency:'usd',customer:'cus',parent:{subscription_details:{subscription:'sub_test'}},lines:{has_more:false,data:[line]}};
+assert.equal(paidInvoiceUntil(sub,[invoice],'cus',now),new Date((timestamp+86400)*1000).toISOString());
+for(const override of [{livemode:true},{status:'open'},{amount_paid:0},{currency:'eur'},{customer:'cus_foreign'},{parent:{subscription_details:{subscription:'sub_other'}}},{lines:{has_more:true,data:[line]}},{lines:{has_more:false,data:[{...line,pricing:{price_details:{price:prices.build}}}]}},{lines:{has_more:false,data:[{...line,amount:0}]}},{lines:{has_more:false,data:[{...line,parent:{subscription_item_details:{subscription:'sub_test',subscription_item:'si_other'}}}]}},{lines:{has_more:false,data:[{...line,period:{start:timestamp-100,end:timestamp-1}}]}}])assert.equal(paidInvoiceUntil(sub,[{...invoice,...override}],'cus',now),null);
+assert.equal(paidInvoiceUntil({...sub,status:'trialing'},[invoice],'cus',now),null);
+assert.equal(subscriptionState([sub],prices).plan,'growth');
+assert.equal(subscriptionState([sub],prices,true).status,'canceled');
+assert.equal(subscriptionState([{...sub,status:'unpaid'}],prices).status,'canceled');
+assert.equal(subscriptionState([{...sub,items:{data:[{quantity:1,price:{id:'untrusted'},current_period_end:timestamp}]}}],prices),null);
+assert.throws(()=>subscriptionState([{...sub,items:{data:[{quantity:1,price:{id:prices.growth}}]}}],prices));
+// Model the atomic DB ledger: commit failure must remain retryable, and old deliveries
+// must resolve current provider state rather than regrant the event's historical access.
+let committed=false,fail=true,released=0,fetches=0,saved;
+let current=[sub];
+const input={event:'evt_retry',type:'invoice.paid',org:'org',customer:'cus',risk:false,prices};
+const deps={claim:async()=>committed?{duplicate:true}:{acquired:true,blocked:false},fetchSubscriptions:async()=>{fetches++;return current},fetchInvoices:async()=>[invoice],finish:async state=>{if(fail)throw Error('DB unavailable');saved=state;committed=true},release:async()=>{released++}};
+await assert.rejects(reconcileEvent(input,deps));assert.equal(committed,false);assert.equal(released,1);
+fail=false;current=[{...sub,status:'canceled'}];await reconcileEvent(input,deps);assert.equal(saved.status,'canceled');assert.equal(released,2);
+await reconcileEvent(input,deps);assert.equal(fetches,2);assert.equal(released,2);
+await assert.rejects(reconcileEvent(input,{...deps,claim:async()=>({acquired:false})}));
+console.log('Passed: Stripe raw signature, replay window, key rotation, test isolation, price allowlist, cancellation, out-of-order delivery, commit retry and duplicate event handling.');
+
+assert.equal(isBillingConfigured({}),false);
+const configured={STRIPE_BILLING_ENABLED:'true',STRIPE_RESTRICTED_KEY:'rk_test_fixture',STRIPE_WEBHOOK_SECRET:'whsec_fixture',STRIPE_PRICE_BUILD:'price_build',STRIPE_PRICE_GROWTH:'price_growth',SUPABASE_SERVICE_ROLE_KEY:'test_only_fixture',NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY:'fixture',NEXT_PUBLIC_SUPABASE_URL:'https://example.supabase.co',APP_ORIGIN:'https://startupia.test'};
+assert.equal(isBillingConfigured(configured),true);
+for(const key of Object.keys(configured))assert.equal(isBillingConfigured({...configured,[key]:undefined}),false,key);
+assert.equal(isBillingConfigured({...configured,STRIPE_RESTRICTED_KEY:'rk_live_fixture'}),false);
+assert.equal(isBillingConfigured({...configured,STRIPE_PRICE_GROWTH:'price_build'}),false);

@@ -1,0 +1,906 @@
+[
+  {
+    "id": "S8-01-01",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".work-card",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-01-02",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".tool-tile",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-01-03",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".price-card",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-01-04",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".journey-card",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-01-05",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".mentor-form-launch",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-01-06",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".guide-input",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-01-07",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".guide-result",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-01-08",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".db-card",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-02-01",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-name",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-02-02",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-email",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-02-03",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-contact",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-02-04",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-goal",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-02-05",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-outcome",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-02-06",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#db-edit-title",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-02-07",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#chat-question",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-02-08",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#dash-search",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-03-01",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".hero-copy .btn",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-03-02",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#tool-prev,#tool-next",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-03-03",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#work-prev,#work-next",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-03-04",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".guide-arrow",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-03-05",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#mentor-download",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-03-06",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".db-btn",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-03-07",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#chat-send",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-03-08",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".router-controls .btn",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-04-01",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".route-answer",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-04-02",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": "[data-tool]",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-04-03",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".guide-steps button",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-04-04",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".guide-operations button",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-04-05",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".context-stops button",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-04-06",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".db-flows button",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-04-07",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": "[data-db-format]",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-04-08",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": "[data-db-layout]",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-05-01",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".guide-result",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-05-02",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".guide-bridge",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-05-03",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".db-proposal",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-05-04",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".db-report-grid",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-05-05",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".mentor-review",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-05-06",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".router-result-steps",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-05-07",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".chat-message.bot",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-05-08",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": "#connection-detail",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-06-01",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": "#mentor-consent",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-06-02",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": "[data-db-check]",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-06-03",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(1) input",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-06-04",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(2) input",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-06-05",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(3) input",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-06-06",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(4) input",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-06-07",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(5) input",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-06-08",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(6) input",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-07-01",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-name",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-07-02",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-email",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-07-03",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-contact",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-07-04",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-stage",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-07-05",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-goal",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-07-06",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-outcome",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-07-07",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#db-edit-title",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-07-08",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#db-edit-body",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-08-01",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-name",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-08-02",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-email",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-08-03",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-contact",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-08-04",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-stage",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-08-05",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-goal",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-08-06",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-outcome",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-08-07",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#db-edit-title",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-08-08",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#db-edit-body",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-09-01",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#mentor-request-dialog",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-09-02",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#dash-editor",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-09-03",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#quiz-dialog",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-09-04",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#info-dialog",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-09-05",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#image-dialog",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-09-06",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#navigation.open",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-09-07",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": ".execution-ribbon[open]",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-09-08",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": ".compare[open]",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-10-01",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".hero-copy .eyebrow",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-10-02",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".contrast .eyebrow",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-10-03",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#recorrido .eyebrow",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-10-04",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#ecosistema .eyebrow",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-10-05",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".work-sticky .eyebrow",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-10-06",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".tool-lab-heading .eyebrow",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-10-07",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#mentores .eyebrow",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-10-08",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#planes .eyebrow",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-11-01",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".work-card",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-11-02",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".tool-tile",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-11-03",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".price-card",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-11-04",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".journey-card",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-11-05",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".mentor-form-launch",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-11-06",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".guide-input",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-11-07",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".guide-result",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-11-08",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".db-card",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-12-01",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"0\"]",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-12-02",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"1\"]",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-12-03",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"2\"]",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-12-04",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"3\"]",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-12-05",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"4\"]",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-12-06",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": ".work-card.selected .work-prompt",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-12-07",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": ".work-card.selected .work-deliverable",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-12-08",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": ".work-card.selected .work-mini-symbol",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-13-01",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"operators\"]",
+    "duration": 260,
+    "level": 0,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-02",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"mvp\"]",
+    "duration": 285,
+    "level": 1,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-03",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"copilot\"]",
+    "duration": 310,
+    "level": 2,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-04",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"manager\"]",
+    "duration": 335,
+    "level": 3,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-05",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"operators\"]",
+    "duration": 360,
+    "level": 4,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-13-06",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"mvp\"]",
+    "duration": 385,
+    "level": 5,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-13-07",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"manager\"]",
+    "duration": 410,
+    "level": 6,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-13-08",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"copilot\"]",
+    "duration": 435,
+    "level": 7,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-14-01",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#dash-status",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-14-02",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#mentor-form-status",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-14-03",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#chat-status",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-14-04",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#router-count",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-14-05",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#kanban-status",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-14-06",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#mentor-cost",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-14-07",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#tool-counter",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-14-08",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#work-position",
+    "duration": 435,
+    "level": 7
+  }
+]

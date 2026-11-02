@@ -1,0 +1,2 @@
+'use client';
+export default function ErrorScreen({reset}:{error:Error;reset:()=>void}){return <main className="app-recovery" role="alert"><img src="/isotipo.png" alt="Startupia" width="42" height="42"/><span>STARTUPIA OS</span><h1>No pudimos mostrar esta vista.</h1><p>Intenta abrirla de nuevo. Los registros guardados se conservan en tu workspace.</p><button onClick={reset}>Reintentar vista</button><button onClick={()=>location.reload()}>Recargar Startupia</button></main>}
