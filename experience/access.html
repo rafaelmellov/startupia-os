@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head><base href="/experience/access/">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#050a13">
+<title>Inicia sesión · Startupia OS</title><meta name="robots" content="noindex, nofollow"><meta name="description" content="Vuelve a tu espacio de trabajo en Startupia OS. Tu startup, tus decisiones y tu próximo movimiento, conectados.">
+<link rel="icon" href="/isotipo.png"><link rel="preload" href="assets/inter-400.woff" as="font" type="font/woff" crossorigin><link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/motion-v5.css"><link rel="stylesheet" href="/ecosystem.css"></head>
+<body>
+<a class="skip" href="/access#continue-session">Ir al inicio de sesión</a>
+<svg class="svg-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+<symbol id="back" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></symbol>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></symbol>
+<symbol id="lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 4v3"/></symbol>
+<symbol id="eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+<symbol id="spark" viewBox="0 0 24 24"><path d="m12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/></symbol>
+<symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+<symbol id="help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 9a3 3 0 0 1 6 0c0 2-3 2-3 4m0 3h.01"/></symbol>
+<symbol id="pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></symbol>
+</defs></svg>
+<div class="page">
+<header class="topbar">
+<a class="brand" href="/" aria-label="Startupia, inicio"><span class="logo-crop"><img src="assets/logo.png" alt="Startupia" width="2000" height="2000"></span><span class="os-label">OS</span></a>
+<a class="back-link" aria-label="Volver a Startupia" href="/"><svg class="icon"><use href="#back"/></svg><span>Volver a Startupia</span></a>
+</header>
+<main class="layout">
+<section class="story" aria-labelledby="story-title">
+<div class="story-inner">
+<div class="eyebrow"><span class="status-dot"></span> TU STARTUP. TU SISTEMA.</div>
+<h1 id="story-title">Las grandes ideas<br>merecen <span>continuidad.</span></h1>
+<p class="story-description">Tu startup continúa donde la dejaste.<br>Vuelve a lo que estás construyendo.</p>
+<div class="universe" aria-label="Las herramientas de Startupia, conectadas alrededor de tu proyecto">
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="grid-plane"></div>
+<div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+<div class="particles" aria-hidden="true"></div>
+<div class="star-wrap"><img class="liquid-star" src="assets/star-liquid-v4.webp" width="982" height="1000" alt="Isotipo de Startupia en cristal azul y turquesa"><div class="star-shadow"></div></div>
+<div class="float-note note-left"><span class="note-icon"><svg class="icon"><use href="#check"/></svg></span><div><strong>Una idea más clara.</strong><span>Un paso más cerca.</span></div></div>
+<div class="float-note note-right"><span class="tiny-spark">✧</span><div><strong>Todo conectado</strong><span>El contexto va contigo</span></div><span class="note-dot"></span></div>
+<span class="universe-coordinate coordinate-left">CONTEXT / CONNECTED</span><span class="universe-coordinate coordinate-right">OS — 01.06</span>
+</div>
+<div class="journey">
+<div class="journey-header"><span>UN SISTEMA PARA CADA ETAPA</span><button id="pause-motion" class="icon-button" aria-label="Pausar recorrido animado" aria-pressed="false" title="Pausar recorrido"><svg class="icon"><use href="#pause"/></svg></button></div>
+<div class="journey-tabs" role="tablist" aria-label="Recorrido de una startup">
+<button role="tab" id="stage-0" aria-controls="scene" aria-selected="true" tabindex="0" data-stage="0"><i></i><span>Idea</span></button>
+<button role="tab" id="stage-1" aria-controls="scene" aria-selected="false" tabindex="-1" data-stage="1"><i></i><span>Validación</span></button>
+<button role="tab" id="stage-2" aria-controls="scene" aria-selected="false" tabindex="-1" data-stage="2"><i></i><span>MVP</span></button>
+<button role="tab" id="stage-3" aria-controls="scene" aria-selected="false" tabindex="-1" data-stage="3"><i></i><span>Clientes</span></button>
+<button role="tab" id="stage-4" aria-controls="scene" aria-selected="false" tabindex="-1" data-stage="4"><i></i><span>Tracción</span></button>
+<button role="tab" id="stage-5" aria-controls="scene" aria-selected="false" tabindex="-1" data-stage="5"><i></i><span>Contexto</span></button>
+</div>
+<div id="scene" role="tabpanel" aria-labelledby="stage-0" class="scene"><div class="scene-copy"><span class="scene-label">01 / STARTUP DIAGNOSIS</span><h2>Una buena pregunta cambia el comienzo.</h2><p>Identifica lo que sabes y lo que necesitas comprobar.</p></div><div class="scene-visual" aria-hidden="true"><span class="scene-symbol">◎</span></div></div>
+<div class="journey-progress" aria-hidden="true"><i></i></div>
+</div>
+</div>
+<div class="story-bottom"><span class="mini-star">✧</span> Piensa en grande. Empieza inteligente.<span class="bottom-line"></span></div>
+</section>
+<section class="access" aria-labelledby="access-title">
+<div class="access-inner">
+<div id="login-view" class="view active"><div class="access-kicker"><span class="status-dot"></span> TU ESPACIO DE TRABAJO</div><h2 id="access-title">Piensa en grande.<br><span>Entra con claridad.</span></h2><p class="access-subtitle">Una cuenta. Todo el contexto de tu startup.</p><div id="session-panel"><div class="selected-plan-card"><small>TU PUNTO DE PARTIDA</small><strong id="selected-plan-name">Startupia OS</strong><span id="selected-plan-price">Workspace conectado para emprendedores</span></div><a id="continue-session" class="primary session-button" href="/signin-with-chatgpt?return_to=%2Faccess" target="_top"><span>Continuar con ChatGPT</span><span aria-hidden="true">↗</span></a><p id="login-status" role="status" aria-live="polite" class="form-status">Comprobando tu sesión…</p><p class="session-note">El acceso seguro se gestiona con tu cuenta de ChatGPT. Startupia no solicita ni almacena tu contraseña.</p><div class="session-links"><a href="/#planes">Ver Build y Growth ↗</a><a href="/mentors">Explorar mentorías ↗</a></div><p class="session-note" id="plan-note">La selección de un plan no activa una suscripción ni realiza un cobro. Podrás preparar tu startup mientras se habilita la contratación.</p></div></div><div class="access-footnote"><svg class="icon"><use href="#lock"/></svg><span>Tu espacio. Tus ideas. Tu próximo paso.</span></div>
+</div>
+<footer class="access-footer"><span>© 2026 Startupia</span><nav aria-label="Información y ayuda"><button type="button" data-info="privacy">Privacidad</button><button type="button" data-info="terms">Términos</button><button type="button" data-info="help" class="footer-help">Ayuda <svg class="icon"><use href="#help"/></svg></button></nav></footer>
+</section>
+</main>
+</div>
+<dialog id="info-dialog" aria-labelledby="info-title"><div class="dialog-top"><span class="eyebrow">STARTUPIA / INFORMACIÓN</span><button class="icon-button close-dialog" aria-label="Cerrar información"><svg class="icon"><use href="#close"/></svg></button></div><h2 id="info-title"></h2><div id="info-content"></div></dialog>
+<button class="motion-control" id="reduce-motion" aria-pressed="false" aria-label="Reducir movimiento" title="Reducir movimiento"><svg class="icon"><use href="#spark"/></svg></button>
+<script src="/access-journey.js" defer></script>
+<script src="/motion-v5.js" defer></script></body></html>

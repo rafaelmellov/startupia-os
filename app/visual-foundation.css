@@ -1,0 +1,25 @@
+/* One product language: restrained surfaces, useful states, brand colour with purpose. */
+:root{--radius:8px}
+.app-shell :is(.card,.workspace-action-panel,.operator-card,.report-cover,.report-summary,.generation-status,.validation-preview,.database-header,.studio-document-cover){border-radius:8px;box-shadow:none}
+.app-shell :is(.card,.workspace-action-panel)>.card{border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding-inline:0}
+.app-shell :is(.plan-mini,.help-hero,.suggestions>button,.report-summary,.validation-preview,.generation-status,.action-panel-heading,.database-header){background:#f6f9fa;box-shadow:none}
+.app-shell :is(.avatar,.module-icon,.m1,.m2,.m3,.app-6,.local-ai-logo){background:#eef5f7;box-shadow:none}
+.app-shell :is(.progress-track>span,.auth-context-progress span){background:#178f9a}
+.app-shell .hero{background:#091d2b;border-radius:8px;box-shadow:none}
+.app-shell .hero:after{display:none}
+.app-shell :is(.blue-insight,.plan-hero,.report-cover,.studio-document-cover){background:#112c3b;border-radius:8px;box-shadow:none}
+.app-shell .blue-page .main-content,.blue-page .main-content{background:#0a1724}
+.app-shell.blue-page :is(.plan-mini,.operator-card,.operator-card:hover,.ai-orb,.report-summary,.generation-status){background:#122838;box-shadow:none}
+.app-shell .art-glow{display:none}
+.app-shell :is(.hero-art>.mark,.context-core){filter:none}
+.app-shell :is(.btn,.workspace-switch,.quick-modules>button,.kanban-card,.operator-visual>span,.local-ai-logo){border-radius:6px;box-shadow:none}
+.app-shell .btn.primary:hover{box-shadow:none}
+.product-panel,.eco-card,.eco-panel,.eco-empty{border-radius:8px;box-shadow:none;background-image:none}
+.eco-card>.eco-card{border:0;border-top:1px solid #dce7ed;border-radius:0;padding-inline:0}
+.eco-account .eco-plan{border:0;border-top:1px solid #dce7ed;border-radius:0;padding-inline:0;background:transparent}
+.eco-account,.eco-account .eco-card,.eco-account .eco-card>*{min-width:0}
+.eco-account .eco-card :is(p,strong,a){overflow-wrap:anywhere}
+.auth-layout :is(.auth-context-card,.auth-context-icon,.auth-mail-icon,.auth-plan){border-radius:8px;box-shadow:none;background-image:none}
+.auth-layout :is(.auth-live-dot,.auth-kicker>span){box-shadow:none}
+.auth-layout .auth-submit:hover{box-shadow:none}
+@media(prefers-reduced-motion:reduce){.app-shell *,.auth-layout *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

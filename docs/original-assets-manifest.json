@@ -1,0 +1,47 @@
+{
+  "originalSourceCommit": "1b97a95",
+  "originalSha256": "a510921804b6fd84fede1ea9435e07fe6e3237dfd63e877bdb752c70e742eea7",
+  "assets": [
+    {
+      "file": "a82c975795474d96.webp",
+      "bytes": 54408,
+      "mime": "image/webp"
+    },
+    {
+      "file": "8407cfa6e1937cb1.woff",
+      "bytes": 28624,
+      "mime": "font/woff"
+    },
+    {
+      "file": "9932b87c8ddd34bf.woff",
+      "bytes": 29356,
+      "mime": "font/woff"
+    },
+    {
+      "file": "834a6edb61fbc81e.woff",
+      "bytes": 19180,
+      "mime": "font/woff"
+    },
+    {
+      "file": "f7b7b5aa6370d9fb.woff",
+      "bytes": 19092,
+      "mime": "font/woff"
+    },
+    {
+      "file": "d5841b8c53de7425.webp",
+      "bytes": 36676,
+      "mime": "image/webp"
+    },
+    {
+      "file": "80b739933cdca908.webp",
+      "bytes": 217122,
+      "mime": "image/webp"
+    },
+    {
+      "file": "c5b479eae3ce6a72.webp",
+      "bytes": 101452,
+      "mime": "image/webp"
+    }
+  ],
+  "policy": "Visible business content retained. Data URI assets externalized byte-for-byte. Decorative motion engines consolidated; functional scripts retained."
+}

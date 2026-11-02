@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "Navegación-0-hover",
+    "group": "Navegación",
+    "selector": ".brand",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-0-focus",
+    "group": "Navegación",
+    "selector": ".brand",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-0-press",
+    "group": "Navegación",
+    "selector": ".brand",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-0-return",
+    "group": "Navegación",
+    "selector": ".brand",
+    "event": "return"
+  },
+  {
+    "id": "Navegación-1-hover",
+    "group": "Navegación",
+    "selector": ".workspace-switch",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-1-focus",
+    "group": "Navegación",
+    "selector": ".workspace-switch",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-1-press",
+    "group": "Navegación",
+    "selector": ".workspace-switch",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-1-return",
+    "group": "Navegación",
+    "selector": ".workspace-switch",
+    "event": "return"
+  },
+  {
+    "id": "Navegación-2-hover",
+    "group": "Navegación",
+    "selector": ".nav-item",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-2-focus",
+    "group": "Navegación",
+    "selector": ".nav-item",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-2-press",
+    "group": "Navegación",
+    "selector": ".nav-item",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-2-return",
+    "group": "Navegación",
+    "selector": ".nav-item",
+    "event": "return"
+  },
+  {
+    "id": "Navegación-3-hover",
+    "group": "Navegación",
+    "selector": ".plan-mini",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-3-focus",
+    "group": "Navegación",
+    "selector": ".plan-mini",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-3-press",
+    "group": "Navegación",
+    "selector": ".plan-mini",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-3-return",
+    "group": "Navegación",
+    "selector": ".plan-mini",
+    "event": "return"
+  },
+  {
+    "id": "Navegación-4-hover",
+    "group": "Navegación",
+    "selector": ".founder",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-4-focus",
+    "group": "Navegación",
+    "selector": ".founder",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-4-press",
+    "group": "Navegación",
+    "selector": ".founder",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-4-return",
+    "group": "Navegación",
+    "selector": ".founder",
+    "event": "return"
+  },
+  {
+    "id": "Navegación-5-hover",
+    "group": "Navegación",
+    "selector": ".top-create",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-5-focus",
+    "group": "Navegación",
+    "selector": ".top-create",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-5-press",
+    "group": "Navegación",
+    "selector": ".top-create",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-5-return",
+    "group": "Navegación",
+    "selector": ".top-create",
+    "event": "return"
+  },
+  {
+    "id": "Navegación-6-hover",
+    "group": "Navegación",
+    "selector": ".notification",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-6-focus",
+    "group": "Navegación",
+    "selector": ".notification",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-6-press",
+    "group": "Navegación",
+    "selector": ".notification",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-6-return",
+    "group": "Navegación",
+    "selector": ".notification",
+    "event": "return"
+  },
+  {
+    "id": "Navegación-7-hover",
+    "group": "Navegación",
+    "selector": ".copilot-toggle",
+    "event": "hover"
+  },
+  {
+    "id": "Navegación-7-focus",
+    "group": "Navegación",
+    "selector": ".copilot-toggle",
+    "event": "focus"
+  },
+  {
+    "id": "Navegación-7-press",
+    "group": "Navegación",
+    "selector": ".copilot-toggle",
+    "event": "press"
+  },
+  {
+    "id": "Navegación-7-return",
+    "group": "Navegación",
+    "selector": ".copilot-toggle",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-0-hover",
+    "group": "Dashboard",
+    "selector": ".quick-modules button",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-0-focus",
+    "group": "Dashboard",
+    "selector": ".quick-modules button",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-0-press",
+    "group": "Dashboard",
+    "selector": ".quick-modules button",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-0-return",
+    "group": "Dashboard",
+    "selector": ".quick-modules button",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-1-hover",
+    "group": "Dashboard",
+    "selector": ".home-tabs button",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-1-focus",
+    "group": "Dashboard",
+    "selector": ".home-tabs button",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-1-press",
+    "group": "Dashboard",
+    "selector": ".home-tabs button",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-1-return",
+    "group": "Dashboard",
+    "selector": ".home-tabs button",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-2-hover",
+    "group": "Dashboard",
+    "selector": ".journey-steps button",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-2-focus",
+    "group": "Dashboard",
+    "selector": ".journey-steps button",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-2-press",
+    "group": "Dashboard",
+    "selector": ".journey-steps button",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-2-return",
+    "group": "Dashboard",
+    "selector": ".journey-steps button",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-3-hover",
+    "group": "Dashboard",
+    "selector": ".next-step button",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-3-focus",
+    "group": "Dashboard",
+    "selector": ".next-step button",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-3-press",
+    "group": "Dashboard",
+    "selector": ".next-step button",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-3-return",
+    "group": "Dashboard",
+    "selector": ".next-step button",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-4-hover",
+    "group": "Dashboard",
+    "selector": ".template-strip button",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-4-focus",
+    "group": "Dashboard",
+    "selector": ".template-strip button",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-4-press",
+    "group": "Dashboard",
+    "selector": ".template-strip button",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-4-return",
+    "group": "Dashboard",
+    "selector": ".template-strip button",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-5-hover",
+    "group": "Dashboard",
+    "selector": ".card-heading button",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-5-focus",
+    "group": "Dashboard",
+    "selector": ".card-heading button",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-5-press",
+    "group": "Dashboard",
+    "selector": ".card-heading button",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-5-return",
+    "group": "Dashboard",
+    "selector": ".card-heading button",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-6-hover",
+    "group": "Dashboard",
+    "selector": ".task-list .task-title",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-6-focus",
+    "group": "Dashboard",
+    "selector": ".task-list .task-title",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-6-press",
+    "group": "Dashboard",
+    "selector": ".task-list .task-title",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-6-return",
+    "group": "Dashboard",
+    "selector": ".task-list .task-title",
+    "event": "return"
+  },
+  {
+    "id": "Dashboard-7-hover",
+    "group": "Dashboard",
+    "selector": ".goal-progress button",
+    "event": "hover"
+  },
+  {
+    "id": "Dashboard-7-focus",
+    "group": "Dashboard",
+    "selector": ".goal-progress button",
+    "event": "focus"
+  },
+  {
+    "id": "Dashboard-7-press",
+    "group": "Dashboard",
+    "selector": ".goal-progress button",
+    "event": "press"
+  },
+  {
+    "id": "Dashboard-7-return",
+    "group": "Dashboard",
+    "selector": ".goal-progress button",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-0-hover",
+    "group": "Formularios",
+    "selector": ".profile-form input",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-0-focus",
+    "group": "Formularios",
+    "selector": ".profile-form input",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-0-press",
+    "group": "Formularios",
+    "selector": ".profile-form input",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-0-return",
+    "group": "Formularios",
+    "selector": ".profile-form input",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-1-hover",
+    "group": "Formularios",
+    "selector": ".profile-form select",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-1-focus",
+    "group": "Formularios",
+    "selector": ".profile-form select",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-1-press",
+    "group": "Formularios",
+    "selector": ".profile-form select",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-1-return",
+    "group": "Formularios",
+    "selector": ".profile-form select",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-2-hover",
+    "group": "Formularios",
+    "selector": ".profile-form textarea",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-2-focus",
+    "group": "Formularios",
+    "selector": ".profile-form textarea",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-2-press",
+    "group": "Formularios",
+    "selector": ".profile-form textarea",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-2-return",
+    "group": "Formularios",
+    "selector": ".profile-form textarea",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-3-hover",
+    "group": "Formularios",
+    "selector": ".modal form input",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-3-focus",
+    "group": "Formularios",
+    "selector": ".modal form input",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-3-press",
+    "group": "Formularios",
+    "selector": ".modal form input",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-3-return",
+    "group": "Formularios",
+    "selector": ".modal form input",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-4-hover",
+    "group": "Formularios",
+    "selector": ".modal form textarea",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-4-focus",
+    "group": "Formularios",
+    "selector": ".modal form textarea",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-4-press",
+    "group": "Formularios",
+    "selector": ".modal form textarea",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-4-return",
+    "group": "Formularios",
+    "selector": ".modal form textarea",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-5-hover",
+    "group": "Formularios",
+    "selector": ".modal form select",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-5-focus",
+    "group": "Formularios",
+    "selector": ".modal form select",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-5-press",
+    "group": "Formularios",
+    "selector": ".modal form select",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-5-return",
+    "group": "Formularios",
+    "selector": ".modal form select",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-6-hover",
+    "group": "Formularios",
+    "selector": ".modal-actions .primary",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-6-focus",
+    "group": "Formularios",
+    "selector": ".modal-actions .primary",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-6-press",
+    "group": "Formularios",
+    "selector": ".modal-actions .primary",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-6-return",
+    "group": "Formularios",
+    "selector": ".modal-actions .primary",
+    "event": "return"
+  },
+  {
+    "id": "Formularios-7-hover",
+    "group": "Formularios",
+    "selector": ".import-label",
+    "event": "hover"
+  },
+  {
+    "id": "Formularios-7-focus",
+    "group": "Formularios",
+    "selector": ".import-label",
+    "event": "focus"
+  },
+  {
+    "id": "Formularios-7-press",
+    "group": "Formularios",
+    "selector": ".import-label",
+    "event": "press"
+  },
+  {
+    "id": "Formularios-7-return",
+    "group": "Formularios",
+    "selector": ".import-label",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-0-hover",
+    "group": "Documentos",
+    "selector": ".studio-page-tree nav button",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-0-focus",
+    "group": "Documentos",
+    "selector": ".studio-page-tree nav button",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-0-press",
+    "group": "Documentos",
+    "selector": ".studio-page-tree nav button",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-0-return",
+    "group": "Documentos",
+    "selector": ".studio-page-tree nav button",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-1-hover",
+    "group": "Documentos",
+    "selector": ".studio-page-search input",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-1-focus",
+    "group": "Documentos",
+    "selector": ".studio-page-search input",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-1-press",
+    "group": "Documentos",
+    "selector": ".studio-page-search input",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-1-return",
+    "group": "Documentos",
+    "selector": ".studio-page-search input",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-2-hover",
+    "group": "Documentos",
+    "selector": ".studio-document-title",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-2-focus",
+    "group": "Documentos",
+    "selector": ".studio-document-title",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-2-press",
+    "group": "Documentos",
+    "selector": ".studio-document-title",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-2-return",
+    "group": "Documentos",
+    "selector": ".studio-document-title",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-3-hover",
+    "group": "Documentos",
+    "selector": ".studio-document-tools button",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-3-focus",
+    "group": "Documentos",
+    "selector": ".studio-document-tools button",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-3-press",
+    "group": "Documentos",
+    "selector": ".studio-document-tools button",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-3-return",
+    "group": "Documentos",
+    "selector": ".studio-document-tools button",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-4-hover",
+    "group": "Documentos",
+    "selector": ".studio-document-meta button",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-4-focus",
+    "group": "Documentos",
+    "selector": ".studio-document-meta button",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-4-press",
+    "group": "Documentos",
+    "selector": ".studio-document-meta button",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-4-return",
+    "group": "Documentos",
+    "selector": ".studio-document-meta button",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-5-hover",
+    "group": "Documentos",
+    "selector": ".studio-block-controls button",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-5-focus",
+    "group": "Documentos",
+    "selector": ".studio-block-controls button",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-5-press",
+    "group": "Documentos",
+    "selector": ".studio-block-controls button",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-5-return",
+    "group": "Documentos",
+    "selector": ".studio-block-controls button",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-6-hover",
+    "group": "Documentos",
+    "selector": ".studio-block-type select",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-6-focus",
+    "group": "Documentos",
+    "selector": ".studio-block-type select",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-6-press",
+    "group": "Documentos",
+    "selector": ".studio-block-type select",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-6-return",
+    "group": "Documentos",
+    "selector": ".studio-block-type select",
+    "event": "return"
+  },
+  {
+    "id": "Documentos-7-hover",
+    "group": "Documentos",
+    "selector": ".studio-add-block",
+    "event": "hover"
+  },
+  {
+    "id": "Documentos-7-focus",
+    "group": "Documentos",
+    "selector": ".studio-add-block",
+    "event": "focus"
+  },
+  {
+    "id": "Documentos-7-press",
+    "group": "Documentos",
+    "selector": ".studio-add-block",
+    "event": "press"
+  },
+  {
+    "id": "Documentos-7-return",
+    "group": "Documentos",
+    "selector": ".studio-add-block",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-0-hover",
+    "group": "Tablero y tareas",
+    "selector": ".database-kind-tabs button",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-0-focus",
+    "group": "Tablero y tareas",
+    "selector": ".database-kind-tabs button",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-0-press",
+    "group": "Tablero y tareas",
+    "selector": ".database-kind-tabs button",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-0-return",
+    "group": "Tablero y tareas",
+    "selector": ".database-kind-tabs button",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-1-hover",
+    "group": "Tablero y tareas",
+    "selector": ".database-view-switch button",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-1-focus",
+    "group": "Tablero y tareas",
+    "selector": ".database-view-switch button",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-1-press",
+    "group": "Tablero y tareas",
+    "selector": ".database-view-switch button",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-1-return",
+    "group": "Tablero y tareas",
+    "selector": ".database-view-switch button",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-2-hover",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls input",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-2-focus",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls input",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-2-press",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls input",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-2-return",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls input",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-3-hover",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls select",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-3-focus",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls select",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-3-press",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls select",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-3-return",
+    "group": "Tablero y tareas",
+    "selector": ".database-controls select",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-4-hover",
+    "group": "Tablero y tareas",
+    "selector": ".database-bulk button",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-4-focus",
+    "group": "Tablero y tareas",
+    "selector": ".database-bulk button",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-4-press",
+    "group": "Tablero y tareas",
+    "selector": ".database-bulk button",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-4-return",
+    "group": "Tablero y tareas",
+    "selector": ".database-bulk button",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-5-hover",
+    "group": "Tablero y tareas",
+    "selector": ".database-record-title",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-5-focus",
+    "group": "Tablero y tareas",
+    "selector": ".database-record-title",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-5-press",
+    "group": "Tablero y tareas",
+    "selector": ".database-record-title",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-5-return",
+    "group": "Tablero y tareas",
+    "selector": ".database-record-title",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-6-hover",
+    "group": "Tablero y tareas",
+    "selector": ".kanban-card button",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-6-focus",
+    "group": "Tablero y tareas",
+    "selector": ".kanban-card button",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-6-press",
+    "group": "Tablero y tareas",
+    "selector": ".kanban-card button",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-6-return",
+    "group": "Tablero y tareas",
+    "selector": ".kanban-card button",
+    "event": "return"
+  },
+  {
+    "id": "Tablero y tareas-7-hover",
+    "group": "Tablero y tareas",
+    "selector": ".task-row .check",
+    "event": "hover"
+  },
+  {
+    "id": "Tablero y tareas-7-focus",
+    "group": "Tablero y tareas",
+    "selector": ".task-row .check",
+    "event": "focus"
+  },
+  {
+    "id": "Tablero y tareas-7-press",
+    "group": "Tablero y tareas",
+    "selector": ".task-row .check",
+    "event": "press"
+  },
+  {
+    "id": "Tablero y tareas-7-return",
+    "group": "Tablero y tareas",
+    "selector": ".task-row .check",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-0-hover",
+    "group": "Copiloto",
+    "selector": ".composer textarea",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-0-focus",
+    "group": "Copiloto",
+    "selector": ".composer textarea",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-0-press",
+    "group": "Copiloto",
+    "selector": ".composer textarea",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-0-return",
+    "group": "Copiloto",
+    "selector": ".composer textarea",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-1-hover",
+    "group": "Copiloto",
+    "selector": ".composer .send",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-1-focus",
+    "group": "Copiloto",
+    "selector": ".composer .send",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-1-press",
+    "group": "Copiloto",
+    "selector": ".composer .send",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-1-return",
+    "group": "Copiloto",
+    "selector": ".composer .send",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-2-hover",
+    "group": "Copiloto",
+    "selector": ".context-tools .icon-btn",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-2-focus",
+    "group": "Copiloto",
+    "selector": ".context-tools .icon-btn",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-2-press",
+    "group": "Copiloto",
+    "selector": ".context-tools .icon-btn",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-2-return",
+    "group": "Copiloto",
+    "selector": ".context-tools .icon-btn",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-3-hover",
+    "group": "Copiloto",
+    "selector": ".research-toggle",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-3-focus",
+    "group": "Copiloto",
+    "selector": ".research-toggle",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-3-press",
+    "group": "Copiloto",
+    "selector": ".research-toggle",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-3-return",
+    "group": "Copiloto",
+    "selector": ".research-toggle",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-4-hover",
+    "group": "Copiloto",
+    "selector": ".context-file button",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-4-focus",
+    "group": "Copiloto",
+    "selector": ".context-file button",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-4-press",
+    "group": "Copiloto",
+    "selector": ".context-file button",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-4-return",
+    "group": "Copiloto",
+    "selector": ".context-file button",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-5-hover",
+    "group": "Copiloto",
+    "selector": ".copilot-mode button",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-5-focus",
+    "group": "Copiloto",
+    "selector": ".copilot-mode button",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-5-press",
+    "group": "Copiloto",
+    "selector": ".copilot-mode button",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-5-return",
+    "group": "Copiloto",
+    "selector": ".copilot-mode button",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-6-hover",
+    "group": "Copiloto",
+    "selector": ".message-actions button",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-6-focus",
+    "group": "Copiloto",
+    "selector": ".message-actions button",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-6-press",
+    "group": "Copiloto",
+    "selector": ".message-actions button",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-6-return",
+    "group": "Copiloto",
+    "selector": ".message-actions button",
+    "event": "return"
+  },
+  {
+    "id": "Copiloto-7-hover",
+    "group": "Copiloto",
+    "selector": ".sent-files button",
+    "event": "hover"
+  },
+  {
+    "id": "Copiloto-7-focus",
+    "group": "Copiloto",
+    "selector": ".sent-files button",
+    "event": "focus"
+  },
+  {
+    "id": "Copiloto-7-press",
+    "group": "Copiloto",
+    "selector": ".sent-files button",
+    "event": "press"
+  },
+  {
+    "id": "Copiloto-7-return",
+    "group": "Copiloto",
+    "selector": ".sent-files button",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-0-hover",
+    "group": "Informes y métricas",
+    "selector": ".report-library button",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-0-focus",
+    "group": "Informes y métricas",
+    "selector": ".report-library button",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-0-press",
+    "group": "Informes y métricas",
+    "selector": ".report-library button",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-0-return",
+    "group": "Informes y métricas",
+    "selector": ".report-library button",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-1-hover",
+    "group": "Informes y métricas",
+    "selector": ".report-navigation button",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-1-focus",
+    "group": "Informes y métricas",
+    "selector": ".report-navigation button",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-1-press",
+    "group": "Informes y métricas",
+    "selector": ".report-navigation button",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-1-return",
+    "group": "Informes y métricas",
+    "selector": ".report-navigation button",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-2-hover",
+    "group": "Informes y métricas",
+    "selector": ".report-toolbar button",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-2-focus",
+    "group": "Informes y métricas",
+    "selector": ".report-toolbar button",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-2-press",
+    "group": "Informes y métricas",
+    "selector": ".report-toolbar button",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-2-return",
+    "group": "Informes y métricas",
+    "selector": ".report-toolbar button",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-3-hover",
+    "group": "Informes y métricas",
+    "selector": ".intelligence-brief-tabs button",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-3-focus",
+    "group": "Informes y métricas",
+    "selector": ".intelligence-brief-tabs button",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-3-press",
+    "group": "Informes y métricas",
+    "selector": ".intelligence-brief-tabs button",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-3-return",
+    "group": "Informes y métricas",
+    "selector": ".intelligence-brief-tabs button",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-4-hover",
+    "group": "Informes y métricas",
+    "selector": ".simulator-field-grid input",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-4-focus",
+    "group": "Informes y métricas",
+    "selector": ".simulator-field-grid input",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-4-press",
+    "group": "Informes y métricas",
+    "selector": ".simulator-field-grid input",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-4-return",
+    "group": "Informes y métricas",
+    "selector": ".simulator-field-grid input",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-5-hover",
+    "group": "Informes y métricas",
+    "selector": ".simulator-subheading select",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-5-focus",
+    "group": "Informes y métricas",
+    "selector": ".simulator-subheading select",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-5-press",
+    "group": "Informes y métricas",
+    "selector": ".simulator-subheading select",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-5-return",
+    "group": "Informes y métricas",
+    "selector": ".simulator-subheading select",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-6-hover",
+    "group": "Informes y métricas",
+    "selector": ".report-task-cards button",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-6-focus",
+    "group": "Informes y métricas",
+    "selector": ".report-task-cards button",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-6-press",
+    "group": "Informes y métricas",
+    "selector": ".report-task-cards button",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-6-return",
+    "group": "Informes y métricas",
+    "selector": ".report-task-cards button",
+    "event": "return"
+  },
+  {
+    "id": "Informes y métricas-7-hover",
+    "group": "Informes y métricas",
+    "selector": ".report-source-list a",
+    "event": "hover"
+  },
+  {
+    "id": "Informes y métricas-7-focus",
+    "group": "Informes y métricas",
+    "selector": ".report-source-list a",
+    "event": "focus"
+  },
+  {
+    "id": "Informes y métricas-7-press",
+    "group": "Informes y métricas",
+    "selector": ".report-source-list a",
+    "event": "press"
+  },
+  {
+    "id": "Informes y métricas-7-return",
+    "group": "Informes y métricas",
+    "selector": ".report-source-list a",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-0-hover",
+    "group": "Menús y modales",
+    "selector": ".attachment-menu button",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-0-focus",
+    "group": "Menús y modales",
+    "selector": ".attachment-menu button",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-0-press",
+    "group": "Menús y modales",
+    "selector": ".attachment-menu button",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-0-return",
+    "group": "Menús y modales",
+    "selector": ".attachment-menu button",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-1-hover",
+    "group": "Menús y modales",
+    "selector": ".search-results button",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-1-focus",
+    "group": "Menús y modales",
+    "selector": ".search-results button",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-1-press",
+    "group": "Menús y modales",
+    "selector": ".search-results button",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-1-return",
+    "group": "Menús y modales",
+    "selector": ".search-results button",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-2-hover",
+    "group": "Menús y modales",
+    "selector": ".notifications-pop button",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-2-focus",
+    "group": "Menús y modales",
+    "selector": ".notifications-pop button",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-2-press",
+    "group": "Menús y modales",
+    "selector": ".notifications-pop button",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-2-return",
+    "group": "Menús y modales",
+    "selector": ".notifications-pop button",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-3-hover",
+    "group": "Menús y modales",
+    "selector": ".create-grid button",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-3-focus",
+    "group": "Menús y modales",
+    "selector": ".create-grid button",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-3-press",
+    "group": "Menús y modales",
+    "selector": ".create-grid button",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-3-return",
+    "group": "Menús y modales",
+    "selector": ".create-grid button",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-4-hover",
+    "group": "Menús y modales",
+    "selector": ".document-picker button",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-4-focus",
+    "group": "Menús y modales",
+    "selector": ".document-picker button",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-4-press",
+    "group": "Menús y modales",
+    "selector": ".document-picker button",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-4-return",
+    "group": "Menús y modales",
+    "selector": ".document-picker button",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-5-hover",
+    "group": "Menús y modales",
+    "selector": ".modal-close",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-5-focus",
+    "group": "Menús y modales",
+    "selector": ".modal-close",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-5-press",
+    "group": "Menús y modales",
+    "selector": ".modal-close",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-5-return",
+    "group": "Menús y modales",
+    "selector": ".modal-close",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-6-hover",
+    "group": "Menús y modales",
+    "selector": ".studio-slash-menu button",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-6-focus",
+    "group": "Menús y modales",
+    "selector": ".studio-slash-menu button",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-6-press",
+    "group": "Menús y modales",
+    "selector": ".studio-slash-menu button",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-6-return",
+    "group": "Menús y modales",
+    "selector": ".studio-slash-menu button",
+    "event": "return"
+  },
+  {
+    "id": "Menús y modales-7-hover",
+    "group": "Menús y modales",
+    "selector": ".runtime-options button",
+    "event": "hover"
+  },
+  {
+    "id": "Menús y modales-7-focus",
+    "group": "Menús y modales",
+    "selector": ".runtime-options button",
+    "event": "focus"
+  },
+  {
+    "id": "Menús y modales-7-press",
+    "group": "Menús y modales",
+    "selector": ".runtime-options button",
+    "event": "press"
+  },
+  {
+    "id": "Menús y modales-7-return",
+    "group": "Menús y modales",
+    "selector": ".runtime-options button",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-0-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".operator-card",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-0-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".operator-card",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-0-press",
+    "group": "Operadores y herramientas",
+    "selector": ".operator-card",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-0-return",
+    "group": "Operadores y herramientas",
+    "selector": ".operator-card",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-1-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input textarea",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-1-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input textarea",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-1-press",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input textarea",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-1-return",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input textarea",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-2-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input .primary",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-2-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input .primary",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-2-press",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input .primary",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-2-return",
+    "group": "Operadores y herramientas",
+    "selector": ".workbench-input .primary",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-3-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-steps button",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-3-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-steps button",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-3-press",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-steps button",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-3-return",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-steps button",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-4-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-controls button",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-4-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-controls button",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-4-press",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-controls button",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-4-return",
+    "group": "Operadores y herramientas",
+    "selector": ".mvp-controls button",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-5-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".studio-tabs button",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-5-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".studio-tabs button",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-5-press",
+    "group": "Operadores y herramientas",
+    "selector": ".studio-tabs button",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-5-return",
+    "group": "Operadores y herramientas",
+    "selector": ".studio-tabs button",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-6-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".campaign-fields input",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-6-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".campaign-fields input",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-6-press",
+    "group": "Operadores y herramientas",
+    "selector": ".campaign-fields input",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-6-return",
+    "group": "Operadores y herramientas",
+    "selector": ".campaign-fields input",
+    "event": "return"
+  },
+  {
+    "id": "Operadores y herramientas-7-hover",
+    "group": "Operadores y herramientas",
+    "selector": ".canvas-fields textarea",
+    "event": "hover"
+  },
+  {
+    "id": "Operadores y herramientas-7-focus",
+    "group": "Operadores y herramientas",
+    "selector": ".canvas-fields textarea",
+    "event": "focus"
+  },
+  {
+    "id": "Operadores y herramientas-7-press",
+    "group": "Operadores y herramientas",
+    "selector": ".canvas-fields textarea",
+    "event": "press"
+  },
+  {
+    "id": "Operadores y herramientas-7-return",
+    "group": "Operadores y herramientas",
+    "selector": ".canvas-fields textarea",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-0-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".help-grid summary",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-0-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".help-grid summary",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-0-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".help-grid summary",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-0-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".help-grid summary",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-1-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".settings-card .btn",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-1-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".settings-card .btn",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-1-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".settings-card .btn",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-1-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".settings-card .btn",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-2-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".setting-row .switch",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-2-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".setting-row .switch",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-2-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".setting-row .switch",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-2-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".setting-row .switch",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-3-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".workspace-footer button",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-3-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".workspace-footer button",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-3-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".workspace-footer button",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-3-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".workspace-footer button",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-4-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".conflict-banner button",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-4-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".conflict-banner button",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-4-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".conflict-banner button",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-4-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".conflict-banner button",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-5-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".generation-error button",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-5-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".generation-error button",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-5-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".generation-error button",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-5-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".generation-error button",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-6-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".studio-versions button",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-6-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".studio-versions button",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-6-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".studio-versions button",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-6-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".studio-versions button",
+    "event": "return"
+  },
+  {
+    "id": "Ayuda y recuperación-7-hover",
+    "group": "Ayuda y recuperación",
+    "selector": ".action-receipt button",
+    "event": "hover"
+  },
+  {
+    "id": "Ayuda y recuperación-7-focus",
+    "group": "Ayuda y recuperación",
+    "selector": ".action-receipt button",
+    "event": "focus"
+  },
+  {
+    "id": "Ayuda y recuperación-7-press",
+    "group": "Ayuda y recuperación",
+    "selector": ".action-receipt button",
+    "event": "press"
+  },
+  {
+    "id": "Ayuda y recuperación-7-return",
+    "group": "Ayuda y recuperación",
+    "selector": ".action-receipt button",
+    "event": "return"
+  }
+]

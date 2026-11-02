@@ -1,0 +1,7 @@
+# Fuentes revisadas — 27 de octubre de 2026
+
+- CB Insights, análisis publicado en marzo de 2026: https://www.cbinsights.com/research/report/startup-failure-reasons-top/ . Texto oficial indexado: 431 cierres públicos de empresas con capital de riesgo desde 2023; causas identificadas en 385. Ajuste producto-mercado deficiente: 43 %; falta de capital: 70 %. Causas superpuestas, sin inferencia de probabilidad individual. El acceso directo devolvió 403 en la herramienta de investigación; se verificaron las cifras y la base en resultados indexados del dominio oficial.
+- Microsoft, Work Trend Index, 23 de abril de 2025: https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born . El 81 % de los líderes esperaba integración moderada o extensa de agentes en la estrategia de IA durante los siguientes 12–18 meses. Se identifica expresamente como expectativa de 2025, no adopción efectiva actual.
+- Startup Genome, versión 1.2, marzo de 2012: https://startupgenome.com/report/why-startups-fail-premature-scaling/why-startups-fail-premature-scaling . Página impresa 18: investigación sobre más de 3.200 startups de alto crecimiento y conclusión histórica del 74 % asociada al escalamiento prematuro. No se presenta como tasa universal actual.
+
+Las barras representan los porcentajes publicados. Los estudios no comparten población ni periodo; no se suman y no avalan Startupia. Se conservan enlaces visibles y las explicaciones de muestra accesibles desde cada tarjeta.

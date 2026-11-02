@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "S7-01-01",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".tool-tile",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-01-02",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".price-card",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-01-03",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".map-node",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-01-04",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".journey-card",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-01-05",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".mentor-form-launch",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-01-06",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".db-card",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-01-07",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".work-card",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-01-08",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".guide-input",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-01-09",
+    "family": "surface-light",
+    "event": "hover",
+    "selector": ".guide-result",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-02-01",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": ".mentor-form-grid input",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-02-02",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": ".mentor-form-grid textarea",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-02-03",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": ".mentor-form-grid select",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-02-04",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": ".dash-form input",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-02-05",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": ".dash-form textarea",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-02-06",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": ".dash-form select",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-02-07",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": "#chat-question",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-02-08",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": "#dash-search",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-02-09",
+    "family": "focus-ring",
+    "event": "focus",
+    "selector": "#db-copilot-input",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-03-01",
+    "family": "press-response",
+    "event": "press",
+    "selector": ".hero-copy .btn",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-03-02",
+    "family": "press-response",
+    "event": "press",
+    "selector": "#tool-prev,#tool-next",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-03-03",
+    "family": "press-response",
+    "event": "press",
+    "selector": ".route-answer",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-03-04",
+    "family": "press-response",
+    "event": "press",
+    "selector": ".guide-steps button",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-03-05",
+    "family": "press-response",
+    "event": "press",
+    "selector": ".guide-operations button",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-03-06",
+    "family": "press-response",
+    "event": "press",
+    "selector": ".db-btn",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-03-07",
+    "family": "press-response",
+    "event": "press",
+    "selector": ".kanban-next",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-03-08",
+    "family": "press-response",
+    "event": "press",
+    "selector": ".guide-arrow",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-03-09",
+    "family": "press-response",
+    "event": "press",
+    "selector": "#mentor-download",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-04-01",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": ".guide-stage",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-04-02",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": "#tool-dossier",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-04-03",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": ".dash-view",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-04-04",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": ".router-step-enter",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-04-05",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": ".mentor-form-heading",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-04-06",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": ".chat-message.bot",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-04-07",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": ".db-chat-msg",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-04-08",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": ".journey-card",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-04-09",
+    "family": "panel-focus",
+    "event": "view",
+    "selector": "#connection-detail",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-05-01",
+    "family": "path-trace",
+    "event": "view",
+    "selector": ".guide-flow-arrow path",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-05-02",
+    "family": "path-trace",
+    "event": "view",
+    "selector": "[data-line=\"operators\"]",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-05-03",
+    "family": "path-trace",
+    "event": "view",
+    "selector": "[data-line=\"mvp\"]",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-05-04",
+    "family": "path-trace",
+    "event": "view",
+    "selector": "[data-line=\"copilot\"]",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-05-05",
+    "family": "path-trace",
+    "event": "view",
+    "selector": "[data-line=\"manager\"]",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-05-06",
+    "family": "path-trace",
+    "event": "view",
+    "selector": ".dash-stat:nth-child(1) svg path",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-05-07",
+    "family": "path-trace",
+    "event": "view",
+    "selector": ".dash-stat:nth-child(2) svg path",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-05-08",
+    "family": "path-trace",
+    "event": "view",
+    "selector": ".dash-stat:nth-child(3) svg path",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-05-09",
+    "family": "path-trace",
+    "event": "view",
+    "selector": ".dash-stat:nth-child(4) svg path",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-06-01",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#dash-status",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-06-02",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#mentor-form-status",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-06-03",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#chat-status",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-06-04",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#router-count",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-06-05",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#kanban-status",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-06-06",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#mentor-cost",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-06-07",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#tool-counter",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-06-08",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#work-position",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-06-09",
+    "family": "status-confirm",
+    "event": "text",
+    "selector": "#guide-count",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-07-01",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": ".dash-navigation button",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-07-02",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": ".guide-steps button",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-07-03",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": ".guide-operations button",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-07-04",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": ".tool-tile",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-07-05",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": ".context-stops button",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-07-06",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": ".db-flows button",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-07-07",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": "#stage-tabs button",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-07-08",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": "[data-db-format]",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-07-09",
+    "family": "selection-mark",
+    "event": "select",
+    "selector": "[data-db-layout]",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-08-01",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".router-progress>span",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-08-02",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".work-scroll-line>span",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-08-03",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".db-progress>span",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-08-04",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": "#reading-progress",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-08-05",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".db-ring",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-08-06",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".progress>span",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-08-07",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".guide-steps [aria-selected=\"true\"]",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-08-08",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".organized-stack",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-08-09",
+    "family": "progress-focus",
+    "event": "view",
+    "selector": ".cost-row",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-09-01",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".guide-node-icon",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-09-02",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".tile-art i",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-09-03",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".dash-avatar",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-09-04",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".db-project-monogram",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-09-05",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".route-symbol",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-09-06",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".connection-core img",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-09-07",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".chat-brand-orb img",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-09-08",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".nav .brand img",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-09-09",
+    "family": "icon-light",
+    "event": "hover",
+    "selector": ".mentor-process li>span",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-10-01",
+    "family": "disclosure",
+    "event": "open",
+    "selector": "#mentor-request-dialog",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-10-02",
+    "family": "disclosure",
+    "event": "open",
+    "selector": "#dash-editor",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-10-03",
+    "family": "disclosure",
+    "event": "open",
+    "selector": "#quiz-dialog",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-10-04",
+    "family": "disclosure",
+    "event": "open",
+    "selector": "#info-dialog",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-10-05",
+    "family": "disclosure",
+    "event": "open",
+    "selector": "#image-dialog",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-10-06",
+    "family": "disclosure",
+    "event": "open",
+    "selector": "#navigation.open",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-10-07",
+    "family": "disclosure",
+    "event": "open",
+    "selector": ".execution-ribbon[open]",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-10-08",
+    "family": "disclosure",
+    "event": "open",
+    "selector": ".faq-list details[open]",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-10-09",
+    "family": "disclosure",
+    "event": "open",
+    "selector": ".compare[open]",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-11-01",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".hero-copy h1",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-11-02",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".section-head h2",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-11-03",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".tool-lab-heading h2",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-11-04",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".context-heading h2",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-11-05",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".planner-intro h3",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-11-06",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".closing h2",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-11-07",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".pathfinder-banner h2",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-11-08",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".execution-heading h3",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-11-09",
+    "family": "text-focus",
+    "event": "view",
+    "selector": ".dossier-copy h3",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S7-12-01",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".guide-result",
+    "duration": 240,
+    "level": 0
+  },
+  {
+    "id": "S7-12-02",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".guide-bridge",
+    "duration": 262,
+    "level": 1
+  },
+  {
+    "id": "S7-12-03",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".guide-operation",
+    "duration": 284,
+    "level": 2
+  },
+  {
+    "id": "S7-12-04",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".guide-input",
+    "duration": 306,
+    "level": 3
+  },
+  {
+    "id": "S7-12-05",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".execution-ribbon",
+    "duration": 328,
+    "level": 4
+  },
+  {
+    "id": "S7-12-06",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": "#connection-detail",
+    "duration": 350,
+    "level": 5
+  },
+  {
+    "id": "S7-12-07",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".router-result-steps",
+    "duration": 372,
+    "level": 6
+  },
+  {
+    "id": "S7-12-08",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".db-proposal",
+    "duration": 394,
+    "level": 7
+  },
+  {
+    "id": "S7-12-09",
+    "family": "context-transfer",
+    "event": "view",
+    "selector": ".mentor-review",
+    "duration": 416,
+    "level": 8
+  },
+  {
+    "id": "S8-01-01",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".work-card",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-01-02",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".tool-tile",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-01-03",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".price-card",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-01-04",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".journey-card",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-01-05",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".mentor-form-launch",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-01-06",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".guide-input",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-01-07",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".guide-result",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-01-08",
+    "family": "s8-sweep",
+    "event": "hover-accent",
+    "selector": ".db-card",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-02-01",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-name",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-02-02",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-email",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-02-03",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-contact",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-02-04",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-goal",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-02-05",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#mentor-outcome",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-02-06",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#db-edit-title",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-02-07",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#chat-question",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-02-08",
+    "family": "s8-focus",
+    "event": "focus-accent",
+    "selector": "#dash-search",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-03-01",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".hero-copy .btn",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-03-02",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#tool-prev,#tool-next",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-03-03",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#work-prev,#work-next",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-03-04",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".guide-arrow",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-03-05",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#mentor-download",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-03-06",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".db-btn",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-03-07",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": "#chat-send",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-03-08",
+    "family": "s8-press",
+    "event": "press-accent",
+    "selector": ".router-controls .btn",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-04-01",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".route-answer",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-04-02",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": "[data-tool]",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-04-03",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".guide-steps button",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-04-04",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".guide-operations button",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-04-05",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".context-stops button",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-04-06",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": ".db-flows button",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-04-07",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": "[data-db-format]",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-04-08",
+    "family": "s8-marker",
+    "event": "select-accent",
+    "selector": "[data-db-layout]",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-05-01",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".guide-result",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-05-02",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".guide-bridge",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-05-03",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".db-proposal",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-05-04",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".db-report-grid",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-05-05",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".mentor-review",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-05-06",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".router-result-steps",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-05-07",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": ".chat-message.bot",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-05-08",
+    "family": "s8-receipt",
+    "event": "view",
+    "selector": "#connection-detail",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-06-01",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": "#mentor-consent",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-06-02",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": "[data-db-check]",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-06-03",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(1) input",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-06-04",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(2) input",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-06-05",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(3) input",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-06-06",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(4) input",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-06-07",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(5) input",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-06-08",
+    "family": "s8-check",
+    "event": "check-accent",
+    "selector": ".db-features-list label:nth-child(6) input",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-07-01",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-name",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-07-02",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-email",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-07-03",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-contact",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-07-04",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-stage",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-07-05",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-goal",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-07-06",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#mentor-outcome",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-07-07",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#db-edit-title",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-07-08",
+    "family": "s8-valid",
+    "event": "valid-accent",
+    "selector": "#db-edit-body",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-08-01",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-name",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-08-02",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-email",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-08-03",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-contact",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-08-04",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-stage",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-08-05",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-goal",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-08-06",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#mentor-outcome",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-08-07",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#db-edit-title",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-08-08",
+    "family": "s8-invalid",
+    "event": "invalid-accent",
+    "selector": "#db-edit-body",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-09-01",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#mentor-request-dialog",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-09-02",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#dash-editor",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-09-03",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#quiz-dialog",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-09-04",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#info-dialog",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-09-05",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#image-dialog",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-09-06",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": "#navigation.open",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-09-07",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": ".execution-ribbon[open]",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-09-08",
+    "family": "s8-frame",
+    "event": "open-accent",
+    "selector": ".compare[open]",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-10-01",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".hero-copy .eyebrow",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-10-02",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".contrast .eyebrow",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-10-03",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#recorrido .eyebrow",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-10-04",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#ecosistema .eyebrow",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-10-05",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".work-sticky .eyebrow",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-10-06",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": ".tool-lab-heading .eyebrow",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-10-07",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#mentores .eyebrow",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-10-08",
+    "family": "s8-reading",
+    "event": "view",
+    "selector": "#planes .eyebrow",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-11-01",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".work-card",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-11-02",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".tool-tile",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-11-03",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".price-card",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-11-04",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".journey-card",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-11-05",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".mentor-form-launch",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-11-06",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".guide-input",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-11-07",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".guide-result",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-11-08",
+    "family": "s8-settle",
+    "event": "leave-accent",
+    "selector": ".db-card",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-12-01",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"0\"]",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-12-02",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"1\"]",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-12-03",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"2\"]",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-12-04",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"3\"]",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-12-05",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": "[data-work=\"4\"]",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-12-06",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": ".work-card.selected .work-prompt",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-12-07",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": ".work-card.selected .work-deliverable",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-12-08",
+    "family": "s8-scene",
+    "event": "scene-accent",
+    "selector": ".work-card.selected .work-mini-symbol",
+    "duration": 435,
+    "level": 7
+  },
+  {
+    "id": "S8-13-01",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"operators\"]",
+    "duration": 260,
+    "level": 0,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-02",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"mvp\"]",
+    "duration": 285,
+    "level": 1,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-03",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"copilot\"]",
+    "duration": 310,
+    "level": 2,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-04",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-node=\"manager\"]",
+    "duration": 335,
+    "level": 3,
+    "target": "#connection-detail"
+  },
+  {
+    "id": "S8-13-05",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"operators\"]",
+    "duration": 360,
+    "level": 4,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-13-06",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"mvp\"]",
+    "duration": 385,
+    "level": 5,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-13-07",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"manager\"]",
+    "duration": 410,
+    "level": 6,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-13-08",
+    "family": "s8-transfer",
+    "event": "context-accent",
+    "selector": "[data-guide-open=\"copilot\"]",
+    "duration": 435,
+    "level": 7,
+    "target": "#demo-panel .execution-ribbon"
+  },
+  {
+    "id": "S8-14-01",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#dash-status",
+    "duration": 260,
+    "level": 0
+  },
+  {
+    "id": "S8-14-02",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#mentor-form-status",
+    "duration": 285,
+    "level": 1
+  },
+  {
+    "id": "S8-14-03",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#chat-status",
+    "duration": 310,
+    "level": 2
+  },
+  {
+    "id": "S8-14-04",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#router-count",
+    "duration": 335,
+    "level": 3
+  },
+  {
+    "id": "S8-14-05",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#kanban-status",
+    "duration": 360,
+    "level": 4
+  },
+  {
+    "id": "S8-14-06",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#mentor-cost",
+    "duration": 385,
+    "level": 5
+  },
+  {
+    "id": "S8-14-07",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#tool-counter",
+    "duration": 410,
+    "level": 6
+  },
+  {
+    "id": "S8-14-08",
+    "family": "s8-trace",
+    "event": "text-accent",
+    "selector": "#work-position",
+    "duration": 435,
+    "level": 7
+  }
+]

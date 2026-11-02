@@ -1,0 +1,4 @@
+import {PublicShell,Eyebrow,s} from '../_public/public-shell';
+import {CheckoutClient} from '../_public/checkout-client';
+export const metadata={title:'Revisar tu plan — Startupia',robots:{index:false,follow:true}};
+export default async function Checkout({searchParams}:{searchParams:Promise<{plan?:string}>}){const query=await searchParams;const plan=query.plan==='growth'?'growth':'build';return <PublicShell><section className={s.hero}><Eyebrow>UN PASO MÁS CERCA</Eyebrow><h1>Tu siguiente etapa,<br/><em>bien preparada.</em></h1><p className={s.lead}>Revisa tu elección y conecta tu cuenta. Siempre sabrás qué está activo y qué falta por confirmar.</p><div className={s.steps}><span><b>1</b> Elige tu plan</span><span><b>2</b> Conecta tu cuenta</span><span><b>3</b> Confirma en checkout</span></div></section><CheckoutClient plan={plan}/></PublicShell>}

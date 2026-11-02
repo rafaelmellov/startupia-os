@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /os
+Disallow: /onboarding
+Disallow: /access
+Disallow: /admin
+Disallow: /api/
+Sitemap: https://startupia-founder-journey.contact-rafaelmello.chatgpt.site/sitemap.xml

@@ -1,0 +1,20 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>Startupia — película de identidad</title><style>html,body{margin:0;background:#06111a}canvas{display:block;width:100%;height:auto}</style><canvas width="1280" height="720" aria-label="Película de identidad Startupia: una órbita conecta idea, evidencia y decisión."></canvas><script>
+// Original procedural artwork. The supplied logo is drawn without alteration.
+const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');
+const stars=Array.from({length:95},(_,i)=>({x:(Math.sin(i*83.3)*.5+.5)*1280,y:(Math.cos(i*47.9)*.5+.5)*720,r:i%7===0?1.7:.7}));
+const image=new Image();window.filmReady=new Promise(resolve=>{image.onload=resolve;image.src=window.brandLogo});
+const ease=x=>x*x*(3-2*x),clamp=x=>Math.max(0,Math.min(1,x));
+function point(x,y,z,a){const tx=x*Math.cos(a)-z*Math.sin(a),tz=x*Math.sin(a)+z*Math.cos(a),scale=700/(700+tz);return [842+tx*scale,354+y*scale,scale]}
+window.renderFilm=(time)=>{const t=time%9,phase=t*.22;ctx.fillStyle='#06111a';ctx.fillRect(0,0,1280,720);
+ ctx.strokeStyle='#19323c';ctx.lineWidth=.5;for(let x=38;x<1280;x+=80){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,720);ctx.stroke()}for(let y=24;y<720;y+=80){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(1280,y);ctx.stroke()}
+ for(const s of stars){ctx.globalAlpha=.2+.22*Math.sin(t*.4+s.x);ctx.fillStyle='#c2f6f2';ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fill()}ctx.globalAlpha=1;
+ for(let k=0;k<7;k++){ctx.beginPath();for(let j=0;j<=128;j++){const a=j/128*Math.PI*2,p=point(Math.cos(a)*(200+k*12),Math.sin(a)*(30+k*9),Math.sin(a)*(145+k*4),phase+k*.12);j?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1])}ctx.strokeStyle=k%2?'#255564':'#377b80';ctx.globalAlpha=.25;ctx.stroke()}ctx.globalAlpha=1;
+ const orbit=point(255*Math.cos(t*.7),80*Math.sin(t*.7),170*Math.sin(t*.7),phase);ctx.fillStyle='#9aece1';ctx.beginPath();ctx.arc(orbit[0],orbit[1],4*orbit[2],0,Math.PI*2);ctx.fill();
+ const size=225+Math.sin(t*.6)*7;ctx.drawImage(image,842-size/2,351-size/2+Math.sin(t*.7)*6,size,size);
+ ctx.textAlign='left';ctx.fillStyle='#91b4bd';ctx.font='500 12px Arial';ctx.fillText('S T A R T U P I A   O S',68,112);
+ const inA=ease(clamp(t/1.2)),inB=ease(clamp((t-.65)/1.2));ctx.globalAlpha=inA;ctx.fillStyle='#edf6fa';ctx.font='600 62px Arial';ctx.fillText('Piensa en grande.',68,293+(1-inA)*18);ctx.globalAlpha=inB;ctx.fillStyle='#96e4dd';ctx.fillText('Empieza inteligente.',68,371+(1-inB)*18);ctx.globalAlpha=1;
+ const words=['IDEA','EVIDENCIA','DECISIÓN'];ctx.font='500 12px Arial';words.forEach((word,i)=>{const p=point(Math.cos(i*2.09+.8)*305,Math.sin(i*2.09+.8)*153,Math.sin(i*2.09)*30,0);ctx.strokeStyle='#28535d';ctx.strokeRect(p[0]-60,p[1]-15,120,30);ctx.fillStyle='#9bbfc4';ctx.textAlign='center';ctx.fillText(word,p[0],p[1]+4)});ctx.textAlign='left';
+ ctx.strokeStyle='#28424c';ctx.beginPath();ctx.moveTo(68,592);ctx.lineTo(1212,592);ctx.stroke();ctx.fillStyle='#7b9ba8';ctx.font='400 13px Arial';ctx.fillText('Tu startup. Un mismo contexto.',68,628);ctx.fillStyle='#b1d4dc';ctx.fillText('UNA IDEA → UN SIGUIENTE PASO',842,628);
+ const fade=clamp((t-8.3)/.7);if(fade){ctx.fillStyle=`rgba(6,17,26,${fade})`;ctx.fillRect(0,0,1280,720)}
+};
+</script></html>

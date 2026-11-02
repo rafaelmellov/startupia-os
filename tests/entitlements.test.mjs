@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import {loadTS} from './ts-loader.mjs';
+const {deriveEntitlements,requirePaidAccess}=await loadTS('lib/entitlements.ts');
+const {workspaceFromOnboarding}=await loadTS('lib/onboarding-workspace.ts');
+const now=Date.parse('2026-10-31T12:00:00Z'),future=new Date(now+86400000).toISOString(),past=new Date(now-1).toISOString();
+const paid={plan:'build',status:'active',provider:'stripe',provider_subscription_id:'sub_paidA',valid_until:future,payment_verified_until:future};
+assert.equal(deriveEntitlements(null,now).build,false);
+for(const status of ['trialing','incomplete','past_due','canceled','unpaid'])assert.equal(deriveEntitlements({...paid,status},now).build,false,status);
+for(const patch of [{provider:'manual'},{provider_subscription_id:null},{plan:'enterprise'},{valid_until:past},{valid_until:'invalid'},{payment_verified_until:null},{payment_verified_until:past}])assert.equal(deriveEntitlements({...paid,...patch},now).build,false,JSON.stringify(patch));
+assert.equal(deriveEntitlements({...paid,user_metadata:{plan:'growth'}},now).growth,false);
+assert.deepEqual(deriveEntitlements(paid,now).ai,{dailyExecutions:10,maxOutputTokens:1800});
+assert.equal(deriveEntitlements(paid,now).build,true);
+assert.equal(deriveEntitlements(paid,now).growth,false);
+assert.deepEqual(deriveEntitlements({...paid,plan:'growth'},now).ai,{dailyExecutions:60,maxOutputTokens:3600});
+assert.equal(deriveEntitlements({...paid,plan:'growth'},now).growth,true);
+function fakeDB(subscription,error=null){return {from(table){return {select(){return this},eq(){return this},async maybeSingle(){return table==='organizations'?{data:{id:'org'},error:null}:{data:subscription,error}}}}}}
+await assert.rejects(requirePaidAccess(fakeDB(null),'user'),error=>error.status===402);
+await assert.rejects(requirePaidAccess(fakeDB(paid,{message:'offline'}),'user'),error=>error.status===503);
+const good={...paid,valid_until:'2099-01-01T00:00:00Z',payment_verified_until:'2099-01-01T00:00:00Z'};
+assert.equal((await requirePaidAccess(fakeDB(good),'user')).organizationId,'org');
+const onboarding={stage:'idea',founder:'Founder',startup:'Brisa',sector:'SaaS',idea:'Pedidos centralizados',problem:'Pedidos perdidos',audience:'Restaurantes',goals:['validate'],completed:true};
+const first=workspaceFromOnboarding(onboarding);first.records.tasks.push({...first.records.tasks[0],id:'retained',title:'Existing work'});
+const repeated=workspaceFromOnboarding({...onboarding,startup:'Brisa nueva'},first);
+assert.equal(repeated.profile.name,'Brisa nueva');assert.ok(repeated.records.tasks.some(x=>x.id==='retained'));assert.equal(repeated.records.goals.filter(x=>x.id==='onboarding-validate').length,1);assert.equal(first.profile.name,'Brisa');
+console.log('Passed: paid invoice period, fail-closed entitlements, no trial/self-upgrade, plan budgets and non-destructive onboarding bootstrap.');
